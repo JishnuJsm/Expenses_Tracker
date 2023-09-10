@@ -1,0 +1,263 @@
+.App {
+  font-family: satisfy;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* NaveBar */
+
+.navBar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 10vh;
+  padding: 0 20px;
+  font-size: 1.5rem;
+  border-bottom: 1px solid grey;
+}
+
+.navBarLeft,
+.navBarRight {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+/* head */
+
+.head {
+  font-family: Josefin sans;
+  width: 100%;
+  height: 8vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom: 1px solid grey;
+}
+
+.money {
+  width: 100%;
+  text-align: center;
+  color: #333;
+}
+
+.money h5 {
+  font-size: 1rem;
+  margin-bottom: 5px;
+}
+
+.income p {
+  color: blue;
+}
+
+.expenses p {
+  color: red;
+}
+
+/* Transaction */
+
+.addSpendButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 1.5rem;
+  color: white;
+  background-color: coral;
+  position: fixed;
+  right: 20px;
+  bottom: 25px;
+  cursor: pointer;
+}
+
+/* dailySpend  */
+
+.dailySpend {
+  font-family: Josefin sans;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+  row-gap: 10px;
+}
+
+.dailySpendR1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dailySpendDates {
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.date {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 15px;
+  border-radius: 3px;
+  font-size: 0.8rem;
+  color: #ffffff;
+  background-color: #333;
+}
+
+.month {
+  font-size: 0.6rem;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.dailySpendAmount {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.dailySpendIncome {
+  color: blue;
+}
+
+.dailySpendExpenses {
+  min-width: 100px;
+  text-align: right;
+  color: red;
+}
+
+.dailySpendR2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.dailySpenCatogory {
+  width: 100px;
+  font-size: 0.7em;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.dailySpendDetail {
+  width: 100%;
+}
+
+.dailySpendNote {
+  font-size: 1rem;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+.dailySpendPayment {
+  font-size: 0.7em;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+.dailySpendPayment {
+  font-size: 0.8rem;
+}
+
+.dailySpendTotal {
+  width: 100px;
+  text-align: right;
+  color: red;
+}
+
+/* AddExpenses */
+
+.addexpenses {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  position: fixed;
+  top: 10vh;
+  background-color: white;
+  z-index: 1;
+  width: 100%;
+  height: 90vh;
+  padding: 0 20px;
+}
+
+.addexpenseHeader {
+  height: 5vh;
+  width: 40%;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.addexpenseCategory {
+  height: 5vh;
+  width: 20%;
+  padding: 5px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.expense {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.expense label {
+  width: 10%;
+}
+
+.expense input {
+  width: 20%;
+  border: 0;
+  border-bottom: 1px solid grey;
+  outline: 0;
+  padding: 10px;
+}
+
+.expense input[type="date"] {
+  width: 100px;
+}
+
+.saveButton {
+  margin-top: 20px;
+}
+
+.themeContent {
+  width: 100px;
+  height: 40px;
+  position: fixed;
+  top: 10vh;
+  right: 20px;
+  z-index: 1;
+  background-color: wheat;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.round {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
